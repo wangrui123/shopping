@@ -1,6 +1,7 @@
 package com.example.shopping;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.example.latte.activities.ProxyActivity;
@@ -18,7 +19,7 @@ public class ExampleActivity extends ProxyActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Log.e("ExampleActivity","onCreate");
         Toast.makeText(Latte.getApplication(), "传入context了", Toast.LENGTH_SHORT).show();
     }
 }
