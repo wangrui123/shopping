@@ -1,4 +1,4 @@
-package com.example.latteec;
+package com.flj.latte;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.latteec.test", appContext.getPackageName());
+        assertEquals("com.example.latte.test", appContext.getPackageName());
     }
 }

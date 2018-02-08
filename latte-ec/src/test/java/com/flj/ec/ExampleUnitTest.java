@@ -1,4 +1,4 @@
-package com.example.latteec;
+package com.flj.ec;
 
 import org.junit.Test;
 

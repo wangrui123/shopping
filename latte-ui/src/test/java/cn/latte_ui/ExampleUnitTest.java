@@ -1,4 +1,4 @@
-package com.example.shopping;
+package cn.latte_ui;
 
 import org.junit.Test;
 

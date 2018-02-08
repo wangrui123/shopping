@@ -1,4 +1,4 @@
-package com.example;
+package com.flj;
 
 public class MyClass {
 }
