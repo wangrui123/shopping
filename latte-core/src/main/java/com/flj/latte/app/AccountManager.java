@@ -2,9 +2,7 @@ package com.flj.latte.app;
 
 import com.flj.latte.util.storage.LattePreference;
 
-/**
- * Created by 傅令杰 on 2017/4/22
- */
+/
 
 public class AccountManager {
 
