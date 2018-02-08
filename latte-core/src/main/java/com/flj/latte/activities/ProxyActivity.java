@@ -2,13 +2,14 @@ package com.flj.latte.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.ContentFrameLayout;
 
 import com.flj.latte.R;
 import com.flj.latte.delegates.LatteDelegate;
 
 import me.yokeyword.fragmentation.ExtraTransaction;
-import me.yokeyword.fragmentation.SupportActivity;
+import me.yokeyword.fragmentation.ISupportActivity;
 import me.yokeyword.fragmentation.SupportActivityDelegate;
 import me.yokeyword.fragmentation.anim.FragmentAnimator;
 
@@ -18,7 +19,8 @@ import me.yokeyword.fragmentation.anim.FragmentAnimator;
  * description:类描述
  */
 
-public abstract class ProxyActivity extends SupportActivity{
+public abstract class ProxyActivity extends AppCompatActivity implements ISupportActivity {
+
     private final SupportActivityDelegate DELEGATE = new SupportActivityDelegate(this);
 
     public abstract LatteDelegate setRootDelegate();
@@ -51,7 +53,6 @@ public abstract class ProxyActivity extends SupportActivity{
     public SupportActivityDelegate getSupportDelegate() {
         return DELEGATE;
     }
-
 
 
     @Override
