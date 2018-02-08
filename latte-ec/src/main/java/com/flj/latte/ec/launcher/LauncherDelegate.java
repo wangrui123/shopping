@@ -26,9 +26,6 @@ import cn.latte_ui.launcher.OnLauncherFinishTag;
 import cn.latte_ui.launcher.ScrollLauncherTag;
 
 
-/**
- * Created by 傅令杰 on 2017/4/22
- */
 
 public class LauncherDelegate extends LatteDelegate implements ITimerListener {
 
