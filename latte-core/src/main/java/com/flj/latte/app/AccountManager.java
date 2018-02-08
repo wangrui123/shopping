@@ -2,7 +2,6 @@ package com.flj.latte.app;
 
 import com.flj.latte.util.storage.LattePreference;
 
-/
 
 public class AccountManager {
 
