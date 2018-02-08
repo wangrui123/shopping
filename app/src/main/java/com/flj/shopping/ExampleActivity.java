@@ -2,7 +2,7 @@ package com.flj.shopping;
 
 import com.flj.latte.activities.ProxyActivity;
 import com.flj.latte.delegates.LatteDelegate;
-import com.flj.latte.ec.icon.launcher.LauncherDelegate;
+import com.flj.latte.ec.launcher.LauncherDelegate;
 
 public class ExampleActivity extends ProxyActivity {
 
