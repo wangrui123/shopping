@@ -1,4 +1,4 @@
-package com.flj.latte.ec.icon.launcher;
+package com.flj.latte.ec.launcher;
 
 import android.app.Activity;
 import android.os.Bundle;

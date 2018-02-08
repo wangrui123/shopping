@@ -1,4 +1,4 @@
-package com.flj.latte.ec.icon.storage;
+package com.flj.latte.ec.storage;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
