@@ -2,9 +2,6 @@ package cn.latte_ui.launcher.timer;
 
 import java.util.TimerTask;
 
-/**
- * Created by 傅令杰 on 2017/4/22
- */
 
 public class BaseTimerTask extends TimerTask {
 
